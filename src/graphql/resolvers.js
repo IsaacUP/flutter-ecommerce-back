@@ -44,9 +44,9 @@ export const resolvers = {
                 throw new Error('Invalid Credentials!');
             }
 
-            if (user.status === 'Pending'){
+            /*if (user.status === 'Pending'){
                 return new Error('Pending Account. Please Verify Your Email!')
-            }
+            }*/
 
             const isEqual = await bcrypt.compare(password,user.password);
 
