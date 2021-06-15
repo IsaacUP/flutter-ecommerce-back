@@ -12,6 +12,10 @@ var _dotenv = require("dotenv");
 
 var _isAuth = _interopRequireDefault(require("./middleware/is-auth"));
 
+require("core-js/stable");
+
+require("regenerator-runtime/runtime");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 (0, _dotenv.config)();
