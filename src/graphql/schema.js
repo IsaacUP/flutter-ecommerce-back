@@ -33,7 +33,7 @@ const typeDefs = `
         userName: String!
         profilePic: String
         email: String!
-        phone: String
+        phone: String!
         password: String!
     }
     
