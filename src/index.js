@@ -4,9 +4,10 @@ import schema from "./graphql/schema";
 import {connect} from "./database";
 import {config} from "dotenv";
 import isAuth from "./middleware/is-auth";
+
+//For babel to work properly
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-
 
 config();
 
